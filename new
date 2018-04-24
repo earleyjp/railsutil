@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SCRIPT_DIR=$(dirname $0)
+
+${SCRIPT_DIR}/scripts/init.sh
+${SCRIPT_DIR}/scripts/create.sh $*
